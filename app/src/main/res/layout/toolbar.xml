@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:elevation="5dp"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="News"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif"
+        />
+
+</androidx.appcompat.widget.Toolbar>
