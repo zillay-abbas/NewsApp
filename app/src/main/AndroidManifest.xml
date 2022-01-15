@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pk.edu.uiit.arid253.newsapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/newsmap"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewsApp">
+        <activity
+            android:name=".MapView"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDS-8Y0TssxozTFMDmXZ2EfcXoBB4bm99U"
+            />
+
+    </application>
+
+</manifest>
